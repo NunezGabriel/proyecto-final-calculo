@@ -19,4 +19,25 @@ body {
 .grid-mid {
   display: grid;
   grid-template-rows: repeat(5, 1fr);
+  padding: 40% 0 40% 0;
+}
+
+.grid-bot {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.navOption {
+  transition: 0.5s;
+}
+.navOption:hover {
+  background-color: #ffe3fd;
+}
+
+.hardtag {
+  transition: 0.5s;
+}
+
+.navOption:hover .hardtag {
+  display: block;
 }

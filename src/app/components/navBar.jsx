@@ -6,14 +6,42 @@ const NavBarComponent = () => {
       <div className="grid items-center justify-center">
         <Image src={"/logo.png"} width={190} height={90} />
       </div>
-      <div className="bg-yellow-400 grid-mid">
-        <div className="flex border-b-2"></div>
-        <div className="flex border-b-2"></div>
-        <div className="flex border-b-2"></div>
-        <div className="flex border-b-2"></div>
-        <div className="flex border-b-2"></div>
+      <div className="grid-mid">
+        <div className="flex border-b-[1px] navOption justify-between">
+          <p>Inicio</p>
+          <div className="h-[100%] w-2 bg-[#e73492] hidden hardtag"></div>
+        </div>
+        <div className="flex border-b-[1px] navOption justify-between">
+          <p>Inicio</p>
+          <div className="h-[100%] w-2 bg-[#e73492] hidden hardtag"></div>
+        </div>
+        <div className="flex border-b-[1px] navOption justify-between">
+          <p>Inicio</p>
+          <div className="h-[100%] w-2 bg-[#e73492] hidden hardtag"></div>
+        </div>
+        <div className="flex border-b-[1px] navOption justify-between">
+          <p>Inicio</p>
+          <div className="h-[100%] w-2 bg-[#e73492] hidden hardtag"></div>
+        </div>
+        <div className="flex border-b-[1px] navOption justify-between">
+          <p>Inicio</p>
+          <div className="h-[100%] w-2 bg-[#e73492] hidden hardtag"></div>
+        </div>
       </div>
-      <div className="bg-black"></div>
+      <div className="grid-bot">
+        <div className="flex border-b-[1px] navOption justify-between">
+          <p>Inicio</p>
+          <div className="h-[100%] w-2 bg-[#e73492] hidden hardtag"></div>
+        </div>
+        <div className="flex border-b-[1px] navOption justify-between">
+          <p>Inicio</p>
+          <div className="h-[100%] w-2 bg-[#e73492] hidden hardtag"></div>
+        </div>
+        <div className="flex border-b-[1px] navOption justify-between">
+          <p>Inicio</p>
+          <div className="h-[100%] w-2 bg-[#e73492] hidden hardtag"></div>
+        </div>
+      </div>
     </nav>
   );
 };
