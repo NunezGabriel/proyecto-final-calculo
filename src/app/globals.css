@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  background-color: #a5a5a5;
+}
+
+.grid-duo {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+
+.grid-nav {
+  display: grid;
+  grid-template-rows: 30% 50% 20%;
+}
+
+.grid-mid {
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+}
