@@ -1,7 +1,7 @@
 "use client";
 
-import NavBarComponent from "./components/navBar";
-import HomeComponent from "./components/home";
+import NavBarComponent from "@/components/navBar";
+import HomeComponent from "@/components/home";
 import { useState } from "react";
 
 export default function Home() {

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const NavBarComponent = () => {
   return (
@@ -7,49 +8,76 @@ const NavBarComponent = () => {
         <Image alt="image" src={"/logo.png"} width={190} height={90} />
       </div>
       <div className="grid-mid">
-        <div className="flex border-b-[1px] navOption justify-between items-center pl-2">
+        <Link
+          href={"/"}
+          className="flex border-b-[1px] navOption justify-between items-center pl-2"
+        >
           <Image alt="image" src={"/casa.png"} width={20} height={20} />
           <p>Inicio</p>
           <div className="h-[100%] w-2 bg-transparent hardtag"></div>
-        </div>
-        <div className="flex border-b-[1px] navOption justify-between items-center pl-2">
+        </Link>
+
+        <Link
+          href={"/herramientas"}
+          className="flex border-b-[1px] navOption justify-between items-center pl-2"
+        >
           <Image alt="image" src={"/edit-tools.png"} width={20} height={20} />
           <p>Herramientas</p>
           <div className="h-[100%] w-2 bg-transparent hardtag"></div>
-        </div>
-        <div className="flex border-b-[1px] navOption justify-between items-center pl-2">
+        </Link>
+
+        <Link
+          href={"/informacion"}
+          className="flex border-b-[1px] navOption justify-between items-center pl-2"
+        >
           <Image alt="image" src={"/agenda.png"} width={20} height={20} />
           <p>Informacion</p>
           <div className="h-[100%] w-2 bg-transparent hardtag"></div>
-        </div>
-        <div className="flex border-b-[1px] navOption justify-between items-center pl-2">
+        </Link>
+
+        <Link
+          href={"/videos"}
+          className="flex border-b-[1px] navOption justify-between items-center pl-2"
+        >
           <Image alt="image" src={"/play.png"} width={20} height={20} />
           <p>Videos</p>
           <div className="h-[100%] w-2 bg-transparent hardtag"></div>
-        </div>
-        <div className="flex border-b-[1px] navOption justify-between items-center pl-2">
+        </Link>
+        <Link
+          href={"/ejercicios"}
+          className="flex border-b-[1px] navOption justify-between items-center pl-2"
+        >
           <Image alt="image" src={"/pesa.png"} width={20} height={20} />
           <p>Ejercicios</p>
           <div className="h-[100%] w-2 bg-transparent hardtag"></div>
-        </div>
+        </Link>
       </div>
 
       <div className="grid-bot">
-        <div className="flex border-b-[1px] navOption justify-between items-center pl-2">
+        <Link
+          href={"/desarrolladores"}
+          className="flex border-b-[1px] navOption justify-between items-center pl-2"
+        >
           <Image alt="image" src={"/grupo.png"} width={20} height={20} />
           <p>Desarrolladores</p>
           <div className="h-[100%] w-2 bg-transparent hardtag"></div>
-        </div>
-        <div className="flex border-b-[1px] navOption justify-between items-center pl-2">
+        </Link>
+        <Link
+          href={"/curso"}
+          className="flex border-b-[1px] navOption justify-between items-center pl-2"
+        >
           <Image alt="image" src={"/graduacion.png"} width={20} height={20} />
           <p>Curso</p>
           <div className="h-[100%] w-2 bg-transparent hardtag"></div>
-        </div>
-        <div className="flex border-b-[1px] navOption justify-between items-center pl-2">
+        </Link>
+        <Link
+          href={"/tema"}
+          className="flex border-b-[1px] navOption justify-between items-center pl-2"
+        >
           <Image alt="image" src={"/theme.png"} width={20} height={20} />
           <p>Tema</p>
           <div className="h-[100%] w-2 bg-transparent hardtag"></div>
-        </div>
+        </Link>
       </div>
     </nav>
   );
