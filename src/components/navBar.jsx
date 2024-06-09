@@ -22,7 +22,7 @@ const NavBarComponent = () => {
           className="flex border-b-[1px] navOption justify-between items-center pl-2"
         >
           <Image alt="image" src={"/edit-tools.png"} width={20} height={20} />
-          <p>Herramientas</p>
+          <p>Ranking</p>
           <div className="h-[100%] w-2 bg-transparent hardtag"></div>
         </Link>
 
